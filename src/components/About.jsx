@@ -15,8 +15,8 @@ export default function About() {
 
 
     return (
-        <article id='about' data-aos='fade-in' data-aos-offset={200} duration={2000} className={` aos-init aos-animate justify-center transition-all ease-in-out duration-500 pb-36 ${selectedBgColor === "bg-black" ? "bg-[#262525]" : "bg-gray-200"} h-[full]   flex pt-40 max-[900px]:gap-0 pl-10 pr-10 `}>
-            <div>
+        <article id='about' data-aos='fade-in' data-aos-offset={200} duration={2000} className={` gap-36 aos-init aos-animate justify-center transition-all ease-in-out duration-500 pb-36 ${selectedBgColor === "bg-black" ? "bg-[#262525]" : "bg-gray-200"} h-[full]   flex pt-40 max-[900px]:gap-0 pl-10 pr-10 `}>
+        
 
                 {/* img */}
 
@@ -35,7 +35,7 @@ export default function About() {
                 </div>
 
 
-            </div>
+          
 
 
         </article>
